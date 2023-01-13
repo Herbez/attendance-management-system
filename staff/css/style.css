@@ -1,0 +1,78 @@
+body{
+	background-image: url("../image/login.png");
+	background-size: 100%;
+
+}
+
+h4{
+	position: absolute;
+	left: 975px;
+	font-family: 'Sansita';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 50px;
+	bottom:360px;
+}
+
+#line{
+	background: #2B7F9F;
+	position: absolute;
+	width: 89px;
+	height: 10px;
+	left: 998px;
+	bottom:400px;
+}
+#myForm {
+    width: 400px;
+    border-radius: 4px;
+    font-size: 12px;
+    
+}
+#myForm input, a, button{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+	position: absolute;
+	left: 895px;
+	top: 300px;
+	padding: 10px;
+}
+#myForm input {
+
+	font-size: 15px;
+	width: 300px;
+	text-align: left;
+	border: none;
+	border-bottom: 1px solid gray;
+	background-color: whitesmoke;
+	 padding-top: 15px;
+	 padding-bottom: 15px;
+	 margin: 25px 0;
+	 outline: 0;
+
+
+
+}
+#myForm button{
+	padding: 12px;
+	padding-left: 98px;	
+	border-radius: 48px;
+	background-color: #2B7F9F;
+	color: #ffffff;
+	border:none;
+	width: 250px;
+	margin-left: 20px;
+	margin-top: 40px;
+	font-family: 'Times New Roman';
+	font-style: normal;
+	font-size: 20px;
+}
+#myForm a{
+	margin-bottom: 15px;
+	font-family: 'Times New Roman';
+	font-style: italic;
+	font-size: 20px;
+	color: #2B7F9F;
+	text-decoration: none;
+}
